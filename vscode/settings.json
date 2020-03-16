@@ -1,0 +1,90 @@
+{
+    "editor.glyphMargin": false, // Altキーでメニューバーの表示切り替え
+  
+    "editor.autoClosingBrackets": "always",
+    "editor.tabSize": 2,
+    "editor.fontSize": 15,                  
+    "window.zoomLevel": 0,                //ファイルツリーを含む全体のズームレベル
+    "editor.lineNumbers": "interval",       //行番号を10行間隔で表示する
+    "editor.cursorBlinking": "phase",       // カーソルを点滅
+    "editor.renderLineHighlight": "all", // カーソル行を強調
+    "editor.renderControlCharacters": true, // 制御文字を表示
+    "editor.renderWhitespace": "boundary",  // 空白文字を表示
+    //"editor.showFoldingControls": "always", // 行の折りたたみ記号を常に表示
+    "editor.minimap.enabled": false,
+    //"editor.minimap.maxColumn": 40, // ミニマップの幅
+    //"editor.minimap.showSlider": "always", // ミニマップ上にスライダーの表示
+    "editor.dragAndDrop": false,            // ドラッグアンドドロップでコードの移動をしない
+    "editor.letterSpacing": -0.5,           // 文字間隔
+    "editor.quickSuggestions": {            //サジェスト
+      "comments": false,                    // コメント内では無効
+      "strings": true,                      // 文字列内では有効
+      "other": true　},                         //  その他の場所で有効
+    "editor.formatOnType": true,            // コード整形
+    "editor.formatOnPaste": true,           // コード整形
+    "editor.suggestFontSize": 13,           // サジェスト文字サイズ
+    "editor.suggestLineHeight": 13,         // サジェスト欄の行の高さ
+    "editor.acceptSuggestionOnCommitCharacter": true,
+    "editor.wordWrap": "off",
+    
+    "explorer.sortOrder": "modified",
+    
+    "files.autoSave": "afterDelay",
+    "files.eol": "\n",                      // 改行文字を\n
+    "files.autoGuessEncoding": true,        // 文字コードを自動的判別
+    "files.insertFinalNewline": false,       // 保存時にファイルの最後に空行挿入
+
+    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "terminal.integrated.fontSize": 15,
+    "terminal.integrated.enableBell": false, //たぶん、エラー音をオフに。
+    "terminal.integrated.splitCwd": "workspaceRoot",
+
+    "workbench.sideBar.location": "left",
+    "workbench.activityBar.visible": false,  // アクティビティバー表示 表示コマは　ctrl shift e
+    "workbench.statusBar.visible": false,
+    "workbench.editor.tabCloseButton": "left",// タブを閉じるボタン位置
+    "workbench.startupEditor": "none",        // vscode起動時の「ようこそ」画面
+    "workbench.editor.tabSizing": "shrink",
+    "workbench.editor.showIcons": false,
+    "workbench.tree.indent": 6,
+    "workbench.colorCustomizations": {        // カラーテーマに上書きする個別の設定
+      "sideBar.border": "#ffffffa2",        // サイドバー境界線
+      "activityBar.border": "#ffffffa2",    // アクティビティバー境界線
+      "editor.background": "#121817",       // エディタ背景色
+      "editorLineNumber.activeForeground": "#ffffff",
+      "scrollbarSlider.hoverBackground": "#00ccff36", // 移動中のスクロールバー色
+      "tab.inactiveForeground": "#999999", // 非選択タブ文字色
+      "editorBracketMatch.background": "#b6b69eb4", // 対応括弧の背景色
+      "editorSuggestWidget.selectedBackground": "#0044ff", // サジェスト欄,選択中項目の背景色
+      "scrollbar.shadow": "#0077ff99",
+      "editorLink.activeForeground": "#5555ce",
+      "extensions.autoUpdate": true,          // 自動更新
+      "extensions.ignoreRecommendations": false, // 推奨事項の通知
+
+      "search.followSymlinks": false,
+      "search.quickOpen.includeHistory": false,
+      "search.smartCase": true,
+    },
+ 
+    "[ruby]":{
+      "editor.tabSize": 2                     //インデントサイズ
+    },
+
+    "[markdown]": {
+      "files.trimTrailingWhitespace": false,
+    },
+
+    "[javascript]": {
+      "editor.tabSize": 2
+    },
+
+    "[json]": {
+      "editor.tabSize": 2,
+    },
+    "terminal.integrated.rendererType": "dom",
+    "explorer.confirmDragAndDrop": false,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "java.errors.incompleteClasspath.severity": "ignore",
+    "java.configuration.checkProjectSettingsExclusions": false
+}
